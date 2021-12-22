@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: test
+  application:
+    name: configclient
+  #Solo para local
+  #config:
+    #import: 'optional:configserver:'
+  cloud:
+    enabled: true
+    uri: http://localhost:8888/
